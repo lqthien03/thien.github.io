@@ -1,0 +1,218 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.banner{
+    width: 100%;
+}
+.container{
+    width: 100%;
+}
+header{
+    position:fixed;
+    top:0;
+    right:0;
+    left:0;
+    height: 200px;
+    background-color: white;
+}
+.logo-search{
+    position: relative;
+}
+.logo-search .logo{
+    position: absolute;
+    top: 80px;
+    left: 80px;
+}
+.login a{
+    position: absolute;
+    top: 30px;
+    right: 90px;
+    height: 40px;
+    text-decoration: none;
+    color: black;
+}
+.icon{
+    position: absolute;
+    top: 25px;
+    right: 230px;
+}
+.icon i{
+    font-size: 30px;
+}
+.icon2 i{
+    position: absolute;
+    top: 90px; 
+    right: 120px;
+    font-size: 40px;
+    color: black;
+}
+.icon i{
+    color: black;
+}
+.search{
+    position: absolute;
+    border: 1px;
+    border-radius: 10px;
+    width: 900px;
+    height: 50px;
+    margin: 0 auto;
+    background-color: #DFDFDEA6;
+    top: 80px;
+    left: 350px;
+} 
+header nav{
+    margin-top: 170px;
+    text-align: center;
+}
+header nav ul{
+    list-style-type: none;
+    background-color: #F38546;
+}
+header nav ul li{ 
+    display: inline-block
+}
+header nav ul li a{
+    display: block;
+    text-decoration: none;
+    font-size: 17px;
+    padding: 15px 20px 15px 20px;
+    color: white
+}
+header nav ul li a:hover{
+    /* transition: 0.5s; */
+    color: yellow;
+}
+
+/* main */
+main{
+    margin-top: 280px;
+    /* border: 1px solid black; */
+    /* width: 1000px; */
+}
+main .conten{
+    /* background-color: #354259; */
+    width: 1212px;      
+    margin: 0 auto;
+    line-height: 80px;
+    margin-bottom: 10px;
+    font-weight: 900;
+}
+main .boc .box{
+    display: inline-block;
+}
+main .boc .box .buy{
+    text-align: left;
+}
+main .boc .box .ten{
+    text-align: left;
+}
+main .boc .box .gia{
+    text-align: right;
+    margin-top: 10px;
+}
+main .boc .box .gia p{
+    display: inline-block;
+    margin-right: 20px;
+    margin-left: 10px;
+}
+main .boc .box .buy button{
+    background-color: #112B3C;
+    height: 40px;
+    width: 90px;
+    border: none;
+}
+main .boc .box .buy button a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+main .boc .box .buy button:hover{
+    background-color: #F38546;
+}
+main .boc .box .img img{
+    width: 100%;
+    margin-top: 10px;
+    
+}
+.boc{
+    /* border: 5px solid black; */
+    height: 450px;
+    text-align: center;
+}
+.box{
+    border: 1px solid #354259;
+    width: 270px;
+    height: 400px;
+    margin: 0px 20px 0px 20px; 
+}
+
+/* END MAIN */
+.banner3{
+    text-align: center;
+}
+.banner3 a{
+    width: 100%;
+    text-align: center;
+}
+.or p{
+    background-color: #F38546;
+    height: 40px;
+    color: #F38546;
+}
+
+/* FOOTER */
+footer{
+    height: 200px;
+}
+.lienhe{
+    margin-top: 40px;
+}
+.logo-right .chon a{
+    text-decoration: none;
+    display:block;
+    color: black;
+}
+.logo-left{
+    text-align: left;
+    margin-left: 240px;
+}
+.logo-right{
+    text-align: left;
+    margin-left: 40px;
+}
+.lienhe .logo2{
+    display: inline-block;
+}
+/* END FOOTER */
+@media screen and (max-width:428px ) {
+    .search{
+        width: 400px;
+        left: 300px;
+    }
+    .boc{
+        width: 930px;
+        height: 900px;
+        margin-left: 190px;
+    }
+    .box{
+        margin-top: 30px;  
+    }
+    
+    main{
+        margin-top: 220px;
+    }
+    main .conten{
+        width: 200px;
+        margin-bottom: -20px;
+        margin-left: 360px;
+    }
+    .or{
+        width: 1300px;
+        margin-top: 50px;
+    }
+    .lienhe{
+        width: 930px;
+    }
+}
